@@ -86,13 +86,36 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-    ul.navbar-nav.me-auto.mb-2.mb-lg-0{
-      text-align: right;
+    .header{
+      background: #7e998a;
+    }
+    .main-title{
+      margin: 0;
+      padding: 2px;
+      text-align: center;
+    }
+    .slogan{
+      margin: 2px 0;
+      font-size: 1em;
+      text-align: center;
+      padding: 2px;
     }
 
-    .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl{
-      justify-content: right;
+    .navbar-light .navbar-brand {
+      color: #FFFFFF;
+    }
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+      color: #FFFFFF;
+    }
+    .navbar-light .navbar-nav .nav-link {
+      color: #ffffff;
+    }
+
+    .color{
+      background-color: #85877c;
+    }
+    .sizeIcone{
+      font-size: 30px;
     }
 
 /* ==========================================================================
