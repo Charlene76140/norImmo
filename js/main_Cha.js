@@ -1,14 +1,13 @@
-//récupérer les réponses dans le fichier HTML
-let answerHidden = document.getElementsByClassName("answerHidden");
-console.log(answerHidden);
+let questions = document.getElementsByClassName("questions");
 
-//parcourir les réponses
-for(answer of answerHidden){
-    //caché les réponses
-    answer.style.display= "none";
+for (i = 0; i < questions.length; i++) {
+    questions[i].onclick = function(){
+      let answerHidden = this.nextElementSibling;
+      if (answerHidden.style.display === "block") {
+        answerHidden.style.display = "none";
+      } else {
+        answerHidden.style.display = "block";
+      }
+    };
 }
 
-//au click la fonction se lance et fait apparaitre les blocs
-function notHiddenAnswer(){
-   answerHidden[0].style.display= "block";
-}
