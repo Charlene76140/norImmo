@@ -1,6 +1,7 @@
 let questions = document.getElementsByClassName("questions");
 
 
+
 for (i = 0; i < questions.length; i++) {
     questions[i].onclick = function(){
       let answerHidden = this.nextElementSibling;
@@ -13,7 +14,4 @@ for (i = 0; i < questions.length; i++) {
        }
     };
 }
-
-
-
 

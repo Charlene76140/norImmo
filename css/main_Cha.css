@@ -1,3 +1,18 @@
+
 .answerHidden{
     display: none;
+}
+
+@media screen and (min-width: 768px){
+    .test{
+        width : 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .test{
+        width : 70%;
+        margin: auto;
+    }
 }
