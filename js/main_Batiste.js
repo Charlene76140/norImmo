@@ -22,7 +22,7 @@ function submit(){
   let resultPrice = materialsPrice * ((userSurface*100)+(userRoom*100));
 // Create let to have result in simulation HTML
   let totalPrice = document.getElementById("totalPrice");
-  totalPrice.innerText = resultPrice + "euros";
+  totalPrice.innerText = resultPrice + " €";
 }
 
 

@@ -61,21 +61,21 @@
 
     <section class="container-fluid mt-2">
       <div class="row mt-3">
-        <div class="col-12 col-md-6 text-center">
-      <h2>Simuler mon projet Immobilier</h2>
+        <div class="col-12 col-md-6 text-center test">
+      <h2 class="title">Simuler mon projet Immobilier</h2>
           <form class="simulateur mb-3" name="simulateur" action="" method="get">
             <!-- Input Surface for User -->
-            <div class="blockform mb-2">
+            <div class="blockform mb-4">
               <label class="mb-2" for="surface">Surface en m²</label><br>
               <input name="surface" type="number" id="surface"  placeholder="50">
             </div>
             <!-- Input RoomsNumber for User -->
-            <div class="blockform mb-2">
+            <div class="blockform mb-4">
               <label class="mb-2" for="bedrooms">Nombre de chambre</label><br>
               <input name="bedrooms" type="number" id="bedrooms" placeholder="2">
             </div>
             <!-- Input Material for User -->
-            <div class="blockform mb-3">
+            <div class="blockform mb-4">
               <label class="mb-2" for="construct-material">Matériaux de construction</label><br>
               <select name="construct-material" id="construct-material">
                 <option value="">-- Votre Choix --</option>
@@ -91,9 +91,9 @@
           </div>
         </div>
         <!-- Result of simulation Total Price JS -->
-          <div class="col-12 col-md-6 text-center">
-            <h2>Résultat de la simulation</h2>
-            <p class="resultSimulator"><strong id="totalPrice"></strong></p>
+          <div class="col-12 col-md-6 text-center test ">
+            <h2 class="title">Résultat de la simulation</h2>
+            <p class="resultSimulator resultPrice"><strong id="totalPrice"></strong></p>
           </div>
       </div>
     </section>

@@ -2,11 +2,26 @@
 
 .buttonSimulation{
   background: #85877c;
-  margin: 10px 230px;
   cursor: pointer;
+  width: 50%;
+  margin: auto;
 }
 
 .resultSimulator{
   background: #7e998a;
-  margin: 10px 230px;
+  width: 50%;
+  margin: auto;
+  height: 50px;
+}
+
+.test{
+  margin: 5% 0;
+}
+
+.title{
+  margin-bottom: 5%;
+}
+
+.resultPrice{
+  padding-top: 13px;
 }
