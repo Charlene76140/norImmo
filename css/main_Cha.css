@@ -1,10 +1,8 @@
 /*-------------------General rules---------------*/
-
 /*by default answers are hidden*/
 .answerHidden{
     display: none;
 }
-
 /*-------------------Mobile Version---------------*/
 .sizeArticle{
     margin: 10% 0
@@ -20,9 +18,11 @@
 
 .colorQuestion{
     background-color: #7e998a;
+    color: white;
+    
 }
 
-.test{
+.sizeDiv{
     margin-bottom: 1%;
 }
 /*-------------------Ipad Version------------------*/
@@ -37,7 +37,6 @@
         margin: 3em 0 0 0;
     }
 }
-
 /*-------------------Desktop Version------------------*/
 @media screen and (min-width: 1024px){
     .sizeSectionIpadAndComputer{
@@ -46,7 +45,7 @@
     }
 
     .sizeArticle{
-        margin: 8% 0
+        margin: 6% 0
     }
 
     .sizeAnswer{
@@ -62,7 +61,7 @@
         font-size: 1.1em;
     }
    
-    .test{
-        margin-bottom: 1%;
+    .sizeDiv{
+        margin-bottom: 0.7%;
     }
 }
