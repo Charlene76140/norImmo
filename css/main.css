@@ -87,6 +87,41 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+    .header{
+      background: #7e998a;
+      padding: 1%;
+    }
+    .main-title{
+      margin: 0;
+      padding: 2px;
+      text-align: center;
+    }
+    .slogan{
+      margin: 2px 0;
+      font-size: 1em;
+      text-align: center;
+      padding: 2px;
+    }
+
+    .navbar-light .navbar-brand {
+      color: #FFFFFF;
+    }
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+      color: #FFFFFF;
+    }
+    .navbar-light .navbar-nav .nav-link {
+      color: #ffffff;
+    }
+
+    .color{
+      background-color: #85877c;
+    }
+    .sizeIcone{
+      font-size: 30px;
+      margin: 0;
+    }
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
